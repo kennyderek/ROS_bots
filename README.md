@@ -6,8 +6,11 @@ which gets read & printed by the Observer.
 
 
 To build project:
+- the program was written in Python 2.7.12 (the only way my linux VM works)
+  For python 3.5, the print statements in the code will need to be changed to include parenthesis.
+  Print statements are located in observer.py and runner.py in the scripts folder.
 
--create a catkin_ws if one is not already created
+-create a catkin_ws if one is not already created (I used ROS kinetic)
  (follow instructions here: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
  
 -in the src folder of your workspace, enter 'git clone https://github.com/kennyderek/ROS_bots.git' on terminal
@@ -39,7 +42,7 @@ Publishing locations
 ...
 
 
-In the terminal in which the observer.py was run, you will see 
+In the terminal in which the observer.py was run, you will see:
 
 [INFO] [1514675662.035074]: Bot 1 at (x, y, z) coordinates: (-0.9781627058982849, 20.27720832824707, 20.27720832824707)
 [INFO] [1514675662.035713]: Bot 2 at (x, y, z) coordinates: (20.27720832824707, -0.9781627058982849, -0.9781627058982849)
