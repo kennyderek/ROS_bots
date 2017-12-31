@@ -31,7 +31,7 @@ We will need 3 different terminal tabs to run the Runner/Observer nodes
     --> `rosrun jetbrains_task observer.py`
 
 #### End results
-## In the runner.py terminal you will see:
+In the runner.py terminal you will see:
 ```
 creating 10 bots
 Publishing locations
@@ -42,7 +42,7 @@ Publishing locations
 ...
 ```
 
-## In the terminal in which the observer.py was run, you will see:
+In the terminal in which the observer.py was run, you will see:
 ```
 [INFO] [1514675662.035074]: Bot 1 at (x, y, z) coordinates: (-0.9781627058982849, 20.27720832824707, 20.27720832824707)
 [INFO] [1514675662.035713]: Bot 2 at (x, y, z) coordinates: (20.27720832824707, -0.9781627058982849, -0.9781627058982849)
