@@ -16,7 +16,7 @@ which gets read & printed by the Observer.
  
 - In the src folder of your workspace, enter `git clone https://github.com/kennyderek/ROS_bots.git` on terminal.
 - Run `catkin_make`.
-- In catkin_ws, enter `source devel/build`.
+- In catkin_ws, enter `source devel/setup.bash`.
 
 #### How to run:
 
