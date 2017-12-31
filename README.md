@@ -31,6 +31,8 @@ We will need 3 different terminal tabs to run the Runner/Observer nodes
 - third terminal:
     --> `rosrun ROS_bots observer.py`
 
+Note: if you encounter the error `[rospack] Error: package 'ROS_bots' not found`, then you need to run `source devel/setup.bash` in each new terminal window from the catkin_ws root.
+
 #### End results
 In the runner.py terminal you will see:
 ```
