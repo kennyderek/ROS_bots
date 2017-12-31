@@ -15,7 +15,7 @@ which gets read & printed by the Observer.
  (follow instructions here: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
  
 - In the src folder of your workspace, enter `git clone https://github.com/kennyderek/ROS_bots.git` on terminal.
-
+- Run `catkin_make`.
 - In catkin_ws, enter `source devel/build`.
 
 #### How to run:
