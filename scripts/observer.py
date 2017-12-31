@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from jetbrains_task.msg import Positions
+from ROS_bots.msg import Positions
 
 def callback(data):
     '''

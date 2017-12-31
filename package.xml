@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>jetbrains_task</name>
+  <name>ROS_bots</name>
   <version>0.0.0</version>
-  <description>The jetbrains_task package</description>
+  <description>task 1/4 for jetbrains</description>
 
 
   <maintainer email="kderek@mit.edu">robocup</maintainer>
