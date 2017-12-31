@@ -7,16 +7,16 @@ which gets read & printed by the Observer.
 
 
 #### To build project
-- the program was written in Python 2.7.12 (the only way my linux VM works)
+- The program was written in Python 2.7.12 (the only way my linux VM works )-:  ).
   For python 3.5, the print statements in the code will need to be changed to include parenthesis.
   Print statements are located in observer.py and runner.py in the scripts folder.
 
-- create a catkin_ws if one is not already created (I used ROS kinetic)
+- Create a catkin_ws if one is not already created (I used ROS kinetic).
  (follow instructions here: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
  
-- in the src folder of your workspace, enter `git clone https://github.com/kennyderek/ROS_bots.git` on terminal
+- In the src folder of your workspace, enter `git clone https://github.com/kennyderek/ROS_bots.git` on terminal.
 
-- in catkin_ws, enter `source devel/build`
+- In catkin_ws, enter `source devel/build`.
 
 #### How to run:
 
@@ -24,9 +24,8 @@ We will need 3 different terminal tabs to run the Runner/Observer nodes
 - first terminal:
     --> `roscore`
 - second terminal:
-    --> `rosrun jetbrains_task runner.py`         (if you just wish to run one bot)
-    OR
-    --> `rosrun jetbrains_task runner.py _numbots:=100`        (creates 100 bots to keep track of. Can change number as desired)
+    --> `rosrun jetbrains_task runner.py` (if you just wish to run one bot) OR
+    --> `rosrun jetbrains_task runner.py _numbots:=100` (creates 100 bots to keep track of. Can change number as desired)
 - third terminal:
     --> `rosrun jetbrains_task observer.py`
 
