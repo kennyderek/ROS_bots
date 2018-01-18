@@ -7,15 +7,12 @@ which gets read & printed by the Observer.
 
 
 #### To build project
-- The program was written in Python 2.7.12 (the only way my linux VM works )-:  ).
-  For python 3.5, the print statements in the code will need to be changed to include parenthesis.
-  Print statements are located in observer.py and runner.py in the scripts folder.
+- The program was written in Python 2.7.12 (and should be run on linux).
 - Create a catkin_ws if one is not already created (I used ROS kinetic).
  (follow instructions here: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 - In the src folder of your workspace, enter `git clone https://github.com/kennyderek/ROS_bots.git` on terminal.
 - `cd ROS_bots`
 - `cmake .`
-- `rosmake`
 - `cd ..` and then one more time, to get back into the catkin_ws folder
 - `catkin_make`.
 - In catkin_ws, enter `source devel/setup.bash`.
